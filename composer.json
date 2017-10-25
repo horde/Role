@@ -1,5 +1,5 @@
 {
-    "name": "horde/horde-role",
+    "name": "horde/role",
     "description": "PEAR installer role used to install Horde components",
     "type": "library",
     "homepage": "https://pear.horde.org",
@@ -17,7 +17,7 @@
         }
     ],
     "version": "1.0.2",
-    "time": "2012-11-19",
+    "time": "2017-10-17",
     "repositories": [
         {
             "type": "pear",
