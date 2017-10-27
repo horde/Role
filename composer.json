@@ -1,5 +1,5 @@
 {
-    "name": "horde/horde-role",
+    "name": "horde/role",
     "description": "PEAR installer role used to install Horde components",
     "type": "library",
     "homepage": "https://pear.horde.org",
