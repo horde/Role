@@ -16,7 +16,7 @@
   <email>jan@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2017-10-17</date>
+ <date>2017-10-27</date>
  <version>
   <release>1.0.2</release>
   <api>1.0.0</api>
@@ -30,6 +30,13 @@
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
+   <dir name="doc">
+    <dir name="Horde">
+     <dir name="Role">
+      <file name="CHANGES" role="doc" />
+     </dir> <!-- /doc/Horde/Role -->
+    </dir> <!-- /doc/Horde -->
+   </dir> <!-- /doc -->
    <dir name="Horde">
     <file name="Role.php" role="php">
      <tasks:postinstallscript>
@@ -63,6 +70,7 @@
  </dependencies>
  <phprelease>
   <filelist>
+   <install as="PEAR/Installer/Role/doc/Horde/Role/CHANGES" name="doc/Horde/Role/CHANGES" />
    <install as="PEAR/Installer/Role/Horde.php" name="Horde.php" />
    <install as="PEAR/Installer/Role/Horde.xml" name="Horde.xml" />
    <install as="PEAR/Installer/Role/Horde/Role.php" name="Horde/Role.php" />
@@ -181,7 +189,7 @@
    <stability>
     <release>stable</release>
     <api>stable</api></stability>
-   <date>2017-10-17</date>
+   <date>2017-10-27</date>
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
    </notes>
