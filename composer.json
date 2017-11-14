@@ -1,23 +1,23 @@
 {
     "name": "horde/role",
-    "description": "PEAR installer role used to install Horde components",
+    "description": "PEAR installer role",
     "type": "library",
-    "homepage": "https://pear.horde.org",
+    "homepage": "https://www.horde.org/libraries/Horde_Role",
     "license": "LGPL-2.1",
     "authors": [
-        {
-            "name": "Michael Slusarz",
-            "email": "slusarz@horde.org",
-            "role": "lead"
-        },
         {
             "name": "Jan Schneider",
             "email": "jan@horde.org",
             "role": "lead"
+        },
+        {
+            "name": "Michael Slusarz",
+            "email": "slusarz@horde.org",
+            "role": "lead"
         }
     ],
     "version": "1.0.2",
-    "time": "2012-11-19",
+    "time": "2017-11-14",
     "repositories": [
         {
             "type": "pear",
