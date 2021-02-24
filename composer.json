@@ -29,12 +29,5 @@
         "php": "^7"
     },
     "suggest": {},
-    "autoload": {
-        "psr-0": {
-            "Horde_Role": "lib/"
-        },
-        "psr-4": {
-            "Horde\\Role\\": "src/"
-        }
-    }
+    "autoload": []
 }
